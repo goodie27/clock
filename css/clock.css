@@ -1,0 +1,56 @@
+.time-container {
+  text-align: center;
+
+  position: fixed;
+
+  left: 355px;
+  top: 188px;
+}
+.text {
+  border: 2px solid #89bae2;
+  width: 148px;
+  position: relative;
+  right: 42px;
+  background: #89bae2;
+  color: cornsilk;
+}
+body {
+  background-color: #ff980026;
+}
+.clock {
+  display: flex;
+}
+
+.hour {
+  width: 68px;
+  height: 73px;
+  margin: 20px;
+  border: 2px solid #4fd6c9;
+  background-color: #4fd6c9;
+  text-align: center;
+  padding: 39px;
+  font-size: -webkit-xxx-large;
+  color: wheat;
+}
+.min {
+  width: 68px;
+  height: 73px;
+  margin: 20px;
+  border: 2px solid #cc94e2;
+  background-color: #cc94e2;
+  text-align: center;
+  padding: 39px;
+  font-size: -webkit-xxx-large;
+  color: wheat;
+}
+.sec {
+  width: 68px;
+  height: 73px;
+  margin: 20px;
+  border: 2px solid #1772af;
+  background-color: #1772af;
+  text-align: center;
+  padding: 39px;
+  font-size: -webkit-xxx-large;
+  color: wheat;
+}
